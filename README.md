@@ -27,6 +27,8 @@ TextMate: https://macromates.com
 **windows**\
 TeXniCe: http://www.texniccenter.org
 
+With the right plugins, you can also use [Atom](https://atom.io).
+
 ### Get template
 
 [Download](https://github.com/severinlandolt/hsg-latex-template/archive/master.zip) or Clone this Git Repository
