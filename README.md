@@ -29,7 +29,7 @@ TeXniCe: http://www.texniccenter.org
 
 ## Get template
 
-Download or Clone this Git Repository
+[Download](https://github.com/severinlandolt/hsg-latex-template/archive/master.zip) or Clone this Git Repository
 
 ```
 git clone <url_of_repository>
