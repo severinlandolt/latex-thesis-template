@@ -35,11 +35,11 @@ Download or Clone this Git Repository
 git clone <url_of_repository>
 ```
 
-Open *thesis.tex* in your favourite TeX editor.
+Open *thesis.tex* in your favourite TeX editor. 
 
 ### Further reading
 
-[A great LaTeX Cheatsheet](https://wch.github.io/latexsheet/) \n
+[A great LaTeX Cheatsheet](https://wch.github.io/latexsheet/)\
 [Tobi Oetiker's *The not so Short Introduction to LaTeX2e*](https://tobi.oetiker.ch/lshort/lshort.pdf)
 
 ## Author
