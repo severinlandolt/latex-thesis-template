@@ -27,7 +27,7 @@ TextMate: https://macromates.com
 **windows**\
 TeXniCe: http://www.texniccenter.org
 
-## Get template
+### Get template
 
 [Download](https://github.com/severinlandolt/hsg-latex-template/archive/master.zip) or Clone this Git Repository
 
@@ -37,7 +37,7 @@ git clone <url_of_repository>
 
 Open *thesis.tex* in your favourite TeX editor.
 
-### Further reading
+## Further reading
 
 [A great LaTeX Cheatsheet](https://wch.github.io/latexsheet/)\
 [Tobi Oetiker's *The not so Short Introduction to LaTeX2e*](https://tobi.oetiker.ch/lshort/lshort.pdf)
