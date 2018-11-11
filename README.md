@@ -1,4 +1,4 @@
-# hsg-latex-template
+# A HSG LaTeX Template
 
 A LaTeX template for humans at HSG.
 
