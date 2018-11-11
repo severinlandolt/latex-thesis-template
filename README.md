@@ -1,0 +1,1 @@
+# hsg-latex-template
