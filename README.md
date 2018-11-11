@@ -9,10 +9,10 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 The first part of a working LaTeX environment is a TeX distribution. This depends on your operating system. And yes, the file is big.
 
-*macOS*
+**macOS:**
 http://www.tug.org/mactex/
 
-*windows*
+**windows:**
 https://miktex.org
 
 And yes, the file is big.
@@ -21,37 +21,32 @@ And yes, the file is big.
 
 There are many capable text editors where you can code LaTeX.
 
-*macOS*
+**macOS**
 TeXShop: https://pages.uoregon.edu/koch/texshop/
 
 TextMate: https://macromates.com
 
-*windows*
+**windows**
 TeXniCe: http://www.texniccenter.org
 
 ## Get template
 
 Download or Clone this Git Repository
 
+```
+git clone <url_of_repository>
+```
+
 Open *thesis.tex* in your favourite TeX editor.
 
 ### Further reading
 
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+[A great LaTeX Cheatsheet](https://wch.github.io/latexsheet/)
+[Tobi Oetiker's *The not so Short Introduction to LaTeX2e*](https://tobi.oetiker.ch/lshort/lshort.pdf)
 
 ## Author
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+* **Severin Landolt** - *Nov 2018* -
 
 ## License
 
