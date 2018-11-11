@@ -28,6 +28,7 @@ TextMate: https://macromates.com
 TeXniCe: http://www.texniccenter.org
 
 With the right plugins, you can also use [Atom](https://atom.io).
+![Atom](https://github.com/severinlandolt/hsg-latex-template/blob/master/Atom.png?raw=true)
 
 ### Get template
 
