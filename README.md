@@ -15,8 +15,6 @@ http://www.tug.org/mactex/
 **windows:**
 https://miktex.org
 
-And yes, the file is big.
-
 ### Installing an editor
 
 There are many capable text editors where you can code LaTeX.
@@ -41,7 +39,7 @@ Open *thesis.tex* in your favourite TeX editor.
 
 ### Further reading
 
-[A great LaTeX Cheatsheet](https://wch.github.io/latexsheet/)
+[A great LaTeX Cheatsheet](https://wch.github.io/latexsheet/) \n
 [Tobi Oetiker's *The not so Short Introduction to LaTeX2e*](https://tobi.oetiker.ch/lshort/lshort.pdf)
 
 ## Author
@@ -50,4 +48,4 @@ Open *thesis.tex* in your favourite TeX editor.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/severinlandolt/hsg-latex-template/blob/master/LICENSE) file for details
