@@ -19,12 +19,12 @@ https://miktex.org
 
 There are many capable text editors where you can code LaTeX.
 
-**macOS**
+**macOS**\
 TeXShop: https://pages.uoregon.edu/koch/texshop/
 
 TextMate: https://macromates.com
 
-**windows**
+**windows**\
 TeXniCe: http://www.texniccenter.org
 
 ## Get template
@@ -35,7 +35,7 @@ Download or Clone this Git Repository
 git clone <url_of_repository>
 ```
 
-Open *thesis.tex* in your favourite TeX editor. 
+Open *thesis.tex* in your favourite TeX editor.
 
 ### Further reading
 
