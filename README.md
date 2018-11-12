@@ -15,7 +15,7 @@ http://www.tug.org/mactex/
 **windows:**
 https://miktex.org
 
-### Installing an editor 
+### Installing an editor
 
 There are many capable text editors where you can code LaTeX.
 
@@ -24,8 +24,12 @@ TeXShop: https://pages.uoregon.edu/koch/texshop/
 
 TextMate: https://macromates.com
 
+TeXStudio: https://www.texstudio.org
+
 **windows**\
 TeXniCe: http://www.texniccenter.org
+
+TeXStudio: https://www.texstudio.org
 
 With the right plugins, you can also use [Atom](https://atom.io).
 ![Atom](https://github.com/severinlandolt/hsg-latex-template/blob/master/Atom.png?raw=true)
