@@ -51,8 +51,8 @@ Open *thesis.tex* in your favourite TeX editor.
 
 ## Authors
 
-* *Severin Landolt*
-* *Tetyana Drobot*
+* Severin Landolt
+* Tetyana Drobot
 
 ## License
 
