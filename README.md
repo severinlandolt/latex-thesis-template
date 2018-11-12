@@ -49,9 +49,10 @@ Open *thesis.tex* in your favourite TeX editor.
 [A great LaTeX Cheatsheet](https://wch.github.io/latexsheet/)\
 [Tobi Oetiker's *The not so Short Introduction to LaTeX2e*](https://tobi.oetiker.ch/lshort/lshort.pdf)
 
-## Author
+## Authors
 
-* **Severin Landolt** - *Nov 2018* -
+* *Severin Landolt*
+* *Tetyana Drobot*
 
 ## License
 
