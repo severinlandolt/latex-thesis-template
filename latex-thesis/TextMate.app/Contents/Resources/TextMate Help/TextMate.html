@@ -1,0 +1,117 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+	"http://www.w3.org/TR/html4/strict.dtd">
+
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="AppleTitle" content="TextMate 2 Help" />
+	<meta name="AppleIcon" content="TextMate Help/images/tm_small.png" />
+	<link href="css/stylesheet.css" rel="stylesheet" type="text/css" />
+	<title>TextMate Help</title>
+</head>
+
+<body>
+<h1 id="textmatehelp">TextMate Help</h1>
+
+<p>Some non-visible stuff.</p>
+
+<article>
+<h2 id="mousegestures">Mouse Gestures</h2>
+
+<ul>
+<li> <kbd class='keyEquivalent'>⌘</kbd>-click to add a new caret.</li>
+<li> <kbd class='keyEquivalent'>⌥</kbd>-click close buttons to close other tabs.</li>
+<li> Hold <kbd class='keyEquivalent'>⌃</kbd> when dropping file to text view to insert its path.</li>
+</ul>
+
+<p>Holding <kbd class='keyEquivalent'>⌥</kbd> to “close other” also works in the file browser or when using <kbd class='keyEquivalent'>⌘T</kbd> (and <kbd class='keyEquivalent'>⌘T</kbd> now does multi-select).</p>
+
+<p>One exception to “<kbd class='keyEquivalent'>⌥</kbd> closes other” is when single-clicking the icon of a bundle (e.g. <code>.app</code>) in the file browser. In this case the single-click works as “Show Package Contents”.</p>
+</article>
+
+
+<article>
+<h2 id="completionkbdclasskeyequivalent⎋kbd">Completion (<kbd class='keyEquivalent'>⎋</kbd>)</h2>
+
+<p>The current word suffix is taken into consideration when hitting escape.</p>
+
+<p>For example in this case:</p>
+
+<pre><code>enum mark_t { kErrorMarkType, kWarningMarkType };
+mark_t m = ‸MarkType;
+</code></pre>
+
+<p>The resulting line will become:</p>
+
+<pre><code>mark_t m = kWarning‸MarkType;
+</code></pre>
+</article>
+
+
+<article>
+<h2 id="grammar">Grammar</h2>
+
+<ul>
+<li> Scope names are format strings and can reference captures ($0, $1, $n).</li>
+<li> <code>\G</code> matches end of parent rule’s <code>begin</code> — or end of last stacked <code>while</code>.</li>
+<li> <code>begin</code>/<code>while</code> rule construct.</li>
+<li> Includes can reference grammar#repos.</li>
+</ul>
+</article>
+
+
+<article>
+<h2 id="bundles">Bundles</h2>
+
+<ul>
+<li> Shell variables are format strings and can e.g. reference <code>TM_SUPPORT_PATH</code>.</li>
+<li> Completion commands have all variables set from current context.</li>
+</ul>
+</article>
+
+
+<article>
+<h2 id="discontinuousselection">Discontinuous Selection</h2>
+
+<p>Activated by typing/deleting or using a leftward or rightward movement while a column selection is active. Alternatively use “Find All”</p>
+</article>
+
+
+<article>
+<h2 id="findhistory">Find History</h2>
+
+<p>Just like clipboard history: <kbd class='keyEquivalent'>⌃⌥⌘F</kbd>.</p>
+</article>
+
+
+<article>
+<h2 id="other">Other</h2>
+
+<p>Possible to enter e.g. <code>main.{cc,h}</code> in a Save As dialog for brace expansion (saves as first expansion, background tabs are created for further expansions).</p>
+
+<p><kbd class='keyEquivalent'>⌘T</kbd> can filter on full path by including <code>/</code>, extension by starting with <code>.</code>, can go to a line by suffixing with a line specification (see elsewhere for syntax)</p>
+
+<p>Using <kbd class='keyEquivalent'>⌘T</kbd> with find clipboard containing <code>«file»:«line»</code> will use that as default text.</p>
+</article>
+
+
+<article>
+<h2 id="syntaxapi">Syntax / API</h2>
+
+<ul>
+<li><a href="bundle_dependencies.html">Bundle Dependencies</a></li>
+<li><a href="format_string_syntax.html">Format String Syntax</a></li>
+<li><a href="glob_string_syntax.html">Glob String Syntax</a></li>
+<li><a href="javascript_object.html">JavaScript Object</a></li>
+<li><a href="scope_selector_syntax.html">Scope Selector Syntax</a></li>
+<li><a href="selection_string_syntax.html">Selection String Syntax</a></li>
+<li><a href="properties.html">Folder Specific Properties</a></li>
+<li><a href="non-content_scopes.html">Non-Content Scopes</a></li>
+<li><a href="events.html">Events / Filters</a></li>
+<li><a href="mate_and_rmate.html">mate &amp; rmate</a></li>
+</ul>
+
+</article>
+</body>
+</html>

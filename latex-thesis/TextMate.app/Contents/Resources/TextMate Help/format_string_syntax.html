@@ -1,0 +1,65 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+	"http://www.w3.org/TR/html4/strict.dtd">
+
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link href="css/stylesheet.css" rel="stylesheet" type="text/css" />
+	<title>Format string syntax</title>
+</head>
+
+<body>
+<h1 id="formatstringsyntax">Format String Syntax</h1>
+
+<article>
+<h2 id="insnippets">In Snippets</h2>
+
+<h3 id="placeholders">Placeholders</h3>
+
+<pre><code>$«int»
+${«int»}
+${«int»:«snippet»}
+${«int»/«regexp»/«format»/«options»}
+${«int»|«choice 1»,…,«choice n»|}
+</code></pre>
+
+<h3 id="code">Code</h3>
+
+<pre><code>`«code»`
+</code></pre>
+</article>
+
+
+<article>
+<h2 id="informatstrings">In Format Strings</h2>
+
+<pre><code>$0-n
+
+\U, \L, \E, \u, \l
+\n, \t
+
+«variables»
+
+(?«var»:«if»:«else»)
+(?«var»:«if»)
+</code></pre>
+</article>
+
+
+<article>
+<h2 id="inboth">In Both</h2>
+
+<h3 id="variables">Variables</h3>
+
+<pre><code>${«var»:?«if»:«else»}
+${«var»:+«if»}
+${«var»:-«else»}
+${«var»:«else»}
+${«var»:[/upcase][/downcase][/(capitalize|titlecase)][/asciify]}
+${«var»/«regexp»/«format»/«options»}
+</code></pre>
+
+</article>
+</body>
+</html>

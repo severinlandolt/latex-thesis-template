@@ -1,0 +1,88 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+	"http://www.w3.org/TR/html4/strict.dtd">
+
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link href="css/stylesheet.css" rel="stylesheet" type="text/css" />
+	<title>File and Folder Targeted Settings</title>
+</head>
+
+<body>
+<h1 id="properties">Properties</h1>
+
+<p>For many settings TextMate will look for a <code>.tm_properties</code> file in the current folder and in any parent folders (up to the user’s home folder).</p>
+
+<p>These are simple <code>setting = value</code> listings where the value is a format string in which other variables can be referenced.</p>
+
+<p>If the setting name is uppercase it will be available as an environment variable (for commands and snippets).</p>
+
+<p>For example to setup the basic stuff one could have <code>~/.tm_properties</code> with these values:</p>
+
+<pre><code># Settings
+theme            = &quot;71D40D9D-AE48-11D9-920A-000D93589AF6&quot;
+fontName         = &quot;Menlo&quot;
+fontSize         = 13
+fileBrowserGlob  = &quot;{*,.tm_properties,.htaccess}&quot;
+
+# Variables
+PATH             = &quot;$PATH:$HOME/bin&quot;
+TM_GIT           = &quot;/opt/local/bin/git&quot;
+</code></pre>
+
+<p>It is possible to target only files matching a given glob, for example:</p>
+
+<pre><code>[ *.txt ]
+softWrap         = true
+
+[ .git/COMMIT_EDITMSG ]
+softWrap         = true
+spellChecking    = true
+spellingLanguage = 'en'
+
+[ &quot;/usr/include/{**/,}*&quot; ]
+tabSize          = 8
+</code></pre>
+
+<p>A magic value of <code>attr.untitled</code> is used for untitled files. This allows setting the file type for these, e.g.:</p>
+
+<pre><code>[ attr.untitled ]
+fileType         = 'source.c++'
+</code></pre>
+
+<p>The normal TM variables are available when expanding the format strings (values). In addition a <code>CWD</code> variable is available which represents the folder from which the <code>.tm_properties</code> file is read. This is necessary to set the project directory, for example I have <code>~/Source/Avian/.tm_properties</code> with these settings:</p>
+
+<pre><code>projectDirectory = &quot;$CWD&quot;
+windowTitle      = &quot;$TM_DISPLAYNAME — Avian&quot;
+fileChooserGlob  = &quot;{{src,Shared/include}/**/*.{cc,mm,h},target{,s},Makefile{,.*},.tm_properties}&quot;
+</code></pre>
+
+<p>The first setting effectively sets <code>TM_PROJECT_DIRECTORY</code> to <code>~/Source/Avian</code>. In <code>~/Source/Avian/Applications</code> I have a (variable) setting like this:</p>
+
+<pre><code>TM_MAKE_TARGET = '${TM_DIRECTORY/^.*\/Applications\/([^\/]+)(\/.*)?$/$1\/run/}'
+</code></pre>
+
+<p>What this does is set the make target based on the current directory. So if I am editing <code>~/Source/Avian/Applications/mate/src/main.cc</code> <kbd class='keyEquivalent'>⌘B</kbd> will make <code>mate/run</code> whereas if I am in <code>~/Source/Avian/Applications/Avian/src/main.cc</code> it will make <code>Avian/run</code>.</p>
+
+<article>
+<h2 id="grammar">Grammar</h2>
+
+<p>The grammar used to parse the <code>.tm_properties</code> files are as below. Whitespace (in the form of spaces or tabs) is allowed between elements.</p>
+
+<pre><code>file:          ( «line» )*
+line:          ( «comment» | ( «section» | «assignment» )? ( «comment» )? ) ( '\n' | EOF )
+section:       '[' «name» ( &quot;;&quot; «name» )* ']'
+name:          ( /[^\] \t\n]/ | /\\[\] \t\n\\]/ )+
+assignment:    «key» '=' «value»
+key:           ( /[^= \t\n]/ | /\\[= \t\n\\]/ )+
+value:         ( «single_string» | «double_string» | «bare_string» )
+single_string: &quot;'&quot; ( /[^']/ | /\\['\\]/ )* &quot;'&quot;
+double_string: '&quot;' ( /[^&quot;]/ | /\\[&quot;\\]/ )* '&quot;'
+bare_string:   ( /[^ \t\n]/ | /\\[ \t\n\\]/ )+
+comment:       '#' ( /[^\n]/ )*
+</code></pre>
+
+</article>
+</body>
+</html>

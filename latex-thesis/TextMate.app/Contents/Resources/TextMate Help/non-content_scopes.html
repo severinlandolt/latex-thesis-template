@@ -1,0 +1,44 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+	"http://www.w3.org/TR/html4/strict.dtd">
+
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link href="css/stylesheet.css" rel="stylesheet" type="text/css" />
+	<title>Matching Context Scopes</title>
+</head>
+
+<body>
+<h1 id="non-contentscopes">Non-content Scopes</h1>
+
+<p>There are a few scopes which are not related to the content.</p>
+
+<article>
+<h2 id="dynamicscopes">Dynamic Scopes</h2>
+
+<p>Presently I think only <code>dyn.selection</code> is available. This allow key bindings which are only active when there is a selection. One example of this could be to overload the tab key to shift right, only when text is selected.</p>
+
+<p>Another example is the “Wrap in Braces” command in the included Avian bundle. This is bould to <code>{</code> and indents the selection plus puts braces on first/last line.</p>
+
+<p>Other dynamic scopes planned: <code>dyn.caret.(begin|end).(line|document)</code>. This will allow keys/snippets to only trigger when caret is at the beginning/ending of the line or document.</p>
+</article>
+
+
+<article>
+<h2 id="scmscopes">SCM Scopes</h2>
+
+<p>The SCM system used is available as <code>scm.attr.«name»</code>. A few more SCM scopes are available, for Git the current branch, and status (although that is presently not standardized).</p>
+</article>
+
+
+<article>
+<h2 id="other">Other</h2>
+
+<p>The path is available (reversed) as <code>attr.rev-path.«path»</code>. This is so that we can bind to e.g. <code>attr.rev-path.erb</code> to target all files with an ERb extension. This is more relevant for events or injection than key bindings.</p>
+
+<p>OS version is available. This allows us to have different versions of the same command for different OS versions (sometimes easier than testing for the OS version in the command when there is little code sharing between the two versions).</p>
+
+</article>
+</body>
+</html>

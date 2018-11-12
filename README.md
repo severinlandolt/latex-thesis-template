@@ -32,7 +32,7 @@ TeXniCe: http://www.texniccenter.org
 TeXStudio: https://www.texstudio.org
 
 With the right plugins, you can also use [Atom](https://atom.io).
-![Atom](https://github.com/severinlandolt/hsg-latex-template/blob/master/Atom.png?raw=true)
+![Atom](https://github.com/severinlandolt/hsg-latex-template/blob/master/atom.png?raw=true)
 
 ### Get template
 
