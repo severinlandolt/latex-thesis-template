@@ -8,15 +8,14 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \documentclass{report}
 
-\input{settings/settings.tex} %import the settings/packages for your document
-
+\input{settings/packages} %import the settings/packages for your document
+\input{settings/macrosetup}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%% HEAD: Book-Begin
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
-%\frontmatter
-\input{01_head/titlepage.tex}
+\include{01_head/titlepage.tex}
 \include{01_head/acknowledgements.tex}
 \include{01_head/abstract.tex}
 
@@ -37,12 +36,15 @@
 
 \include{02_main/ch1_introduction}
 \include{02_main/ch2_research}
+%add other chapters
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%% TAIL: Bibliography, Appendix, CV
+%%%%% TAIL: Appendix, Bibliography
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \include{03_tail/appendix.tex}
-\include{03_tail/bibliography.tex}
+\include{03_tail/references.tex}
+%include a eigenständigkeiserklärung
 
 
 \end{document}
