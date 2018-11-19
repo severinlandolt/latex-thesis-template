@@ -39,7 +39,7 @@ For example, using combination of the two packages:
 - [language-latex](https://atom.io/packages/language-latex)
 - [latextools](https://atom.io/packages/latextools)
 
-![Atom](https://github.com/severinlandolt/hsg-latex-template/blob/master/atom02-packages.jpeg?raw=true)
+![Atom](https://github.com/severinlandolt/hsg-latex-template/blob/master/atom02-packages.png?raw=true)
 
 ### Get template
 
