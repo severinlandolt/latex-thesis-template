@@ -1,0 +1,50 @@
+\input{packages.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%Thesis
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%%%%%%%%%%%%%title
+
+
+
+
+%%%%%%%%%%%%%%%%
+
+\setlength{\parskip}{0.25 \baselineskip}
+\newlength{\figwidth}
+\setlength{\figwidth}{26pc}
+% Spacing between notation sections
+\newlength{\notationgap}
+\setlength{\notationgap}{1pc}
+
+\typeout{START_CHAPTER "TOC" \theabspage}
+\frontmatter
+
+\maketitle
+\input{head/abstract.tex}
+\input{head/acknowledgements.tex}
+\tableofcontents
+\typeout{END_CHAPTER "TOC" \theabspage}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \mainmatter
+ \input{commentary.tex}
+
+\small{
+\typeout{START_CHAPTER "bib" \theabspage}
+\bibliography{notation}
+\bibliographystyle{natbib}
+\clearpage
+\typeout{END_CHAPTER "bib" \theabspage}
+}
+%\typeout{START_CHAPTER "index-" \theabspage}
+%\printindex
+%\clearpage
+%\typeout{END_CHAPTER "index-" \theabspage}
+%\newpage
+
+
+\end{document}

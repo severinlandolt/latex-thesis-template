@@ -10,10 +10,8 @@
 \usepackage{microtype} % Get rid of some frame busts automatically
 % Note: if microtype causes error on ubuntu, run
 % sudo apt-get install cm-super
-\title{A Deep Learning Taxonomy}
-\author{Severin Landolt}
-\date{\Today}
-\setcounter{tocdepth}{1}
+
+\input{head/titlepage.tex}
 
 \pdfobjcompresslevel=0
 
@@ -21,6 +19,8 @@
 
 \setcounter{secnumdepth}{3} % Number subsubsections, because we reference them,
 % so the reader needs numbers to find the correct place.
+
+\usepackage{lipsum}
 
 
 \usepackage[vcentering,dvips]{geometry}
@@ -116,40 +116,3 @@ plainpages=false]{hyperref}
 % If we do not do this, we get weird gaps of several inches of white space
 % before or after some long align environments.
 \allowdisplaybreaks
-
-\begin{document}
-
-\setlength{\parskip}{0.25 \baselineskip}
-\newlength{\figwidth}
-\setlength{\figwidth}{26pc}
-% Spacing between notation sections
-\newlength{\notationgap}
-\setlength{\notationgap}{1pc}
-
-\typeout{START_CHAPTER "TOC" \theabspage}
-\frontmatter
-
-
-\maketitle
-\tableofcontents
-\typeout{END_CHAPTER "TOC" \theabspage}
-
- \input{notation.tex}
- \mainmatter
- \input{commentary.tex}
-
-\small{
-\typeout{START_CHAPTER "bib" \theabspage}
-\bibliography{notation}
-\bibliographystyle{natbib}
-\clearpage
-\typeout{END_CHAPTER "bib" \theabspage}
-}
-\typeout{START_CHAPTER "index-" \theabspage}
-\printindex
-%\clearpage
-\typeout{END_CHAPTER "index-" \theabspage}
-%\newpage
-
-
-\end{document}
