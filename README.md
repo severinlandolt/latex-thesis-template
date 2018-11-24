@@ -60,7 +60,7 @@ Copy/Paste the source you want to cite in a BibTeX formatting (see screenshot be
 ![references01](https://raw.githubusercontent.com/severinlandolt/hsg-latex-template/master/images/references01.png)
 
 *Ways of cite*
-There are plenty ways to cite. The following information is mostly derived from ![natbib's documentation](http://mirror.hmc.edu/ctan/macros/latex/contrib/natbib/natnotes.pdf). Basically there are two basic citation commands, \citet and \citep for textual and parenthetical citations. There exist also starred versions \citet* and \citep* that print the full author list, and not just the abbreviated one.
+There are plenty ways to cite. The following information is mostly derived from ![natbib's documentation](https://ctan.org/pkg/natbib?lang=de). Basically there are two basic citation commands, \citet and \citep for textual and parenthetical citations. There exist also starred versions \citet* and \citep* that print the full author list, and not just the abbreviated one.
 ![finalref](https://raw.githubusercontent.com/severinlandolt/hsg-latex-template/master/images/finalref.png)
 
 ## Further reading
