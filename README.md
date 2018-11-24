@@ -57,12 +57,13 @@ We are using the _natbib_ package to cite in the prose text and also to generate
 
 **Prepare your bibliographic database**\
 Copy/Paste the source you want to cite in a BibTeX formatting (see screenshot below) into your references.bib file. Bear in mind that LaTeX by default only puts those sources into the final references section which are actually cited in the document.
-![references01](https://raw.githubusercontent.com/severinlandolt/hsg-latex-template/master/images/references01.png){:height="50%" width="50%"}
+![references01](https://raw.githubusercontent.com/severinlandolt/hsg-latex-template/master/images/references01.png)
 
 
 
 **Ways to cite**\
-There are plenty ways to cite. The following information is mostly derived from ![natbib's documentation](https://ctan.org/pkg/natbib?lang=de). Basically there are two basic citation commands, \citet and \citep for textual and parenthetical citations. There exist also starred versions \citet* and \citep* that print the full author list, and not just the abbreviated one.
+There are plenty ways to cite. The following information is mostly derived from [natbib's documentation](https://ctan.org/pkg/natbib?lang=de). Basically there are two basic citation commands, \citet and \citep for textual and parenthetical citations. There exist also starred versions \citet* and \citep* that print the full author list, and not just the abbreviated one.<br>
+
 ![finalref](https://raw.githubusercontent.com/severinlandolt/hsg-latex-template/master/images/finalref.png)
 
 ## Further reading
@@ -72,8 +73,8 @@ There are plenty ways to cite. The following information is mostly derived from 
 
 ## Authors
 
-* Severin Landolt
-* Tetyana Drobot
+* [Severin Landolt](https://github.com/severinlandolt)
+* [Tetyana Drobot](https://github.com/deltani)
 
 ## License
 
