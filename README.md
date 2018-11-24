@@ -20,7 +20,6 @@ https://miktex.org
 There are many capable text editors where you can code LaTeX.
 
 **macOS**\
-TeXShop: https://pages.uoregon.edu/koch/texshop/
 
 TextMate: https://macromates.com
 
@@ -32,7 +31,7 @@ TeXniCe: http://www.texniccenter.org
 TeXStudio: https://www.texstudio.org
 
 With the right plugins, you can also use [Atom](https://atom.io).
-![Atom](https://raw.githubusercontent.com/severinlandolt/hsg-latex-template/master/images/atom01.png)
+![Atom](https://raw.githubusercontent.com/severinlandolt/hsg-latex-template/master/images/atom01.png) (this is the editor we mostly use)
 
 For example, using combination of the two packages:
 
