@@ -32,14 +32,14 @@ TeXniCe: http://www.texniccenter.org
 TeXStudio: https://www.texstudio.org
 
 With the right plugins, you can also use [Atom](https://atom.io).
-![Atom](hsg-latex-template/images/atom01.png)
+![Atom](https://raw.githubusercontent.com/severinlandolt/hsg-latex-template/master/images/atom01.png)
 
 For example, using combination of the two packages:
 
 - [language-latex](https://atom.io/packages/language-latex)
 - [latextools](https://atom.io/packages/latextools)
 
-![Atom](https://github.com/severinlandolt/hsg-latex-template/blob/master/atom02-packages.png?raw=true)
+![Atom](https://raw.githubusercontent.com/severinlandolt/hsg-latex-template/master/images/atom02-packages.png)
 
 ### Get template
 
@@ -57,11 +57,11 @@ We are using the _natbib_ package to cite in the prose text and also to generate
 
 *Prepare your bibliographic database*
 Copy/Paste the source you want to cite in a BibTeX formatting (see screenshot below) into your references.bib file. Bear in mind that LaTeX by default only puts those sources into the final references section which are actually cited in the document.
-![references01](link)
+![references01](https://raw.githubusercontent.com/severinlandolt/hsg-latex-template/master/images/references01.png)
 
 *Ways of cite*
 There are plenty ways to cite. The following information is mostly derived from ![natbib's documentation](http://mirror.hmc.edu/ctan/macros/latex/contrib/natbib/natnotes.pdf). Basically there are two basic citation commands, \citet and \citep for textual and parenthetical citations. There exist also starred versions \citet* and \citep* that print the full author list, and not just the abbreviated one.
-![finalref](link)
+![finalref](https://raw.githubusercontent.com/severinlandolt/hsg-latex-template/master/images/finalref.png)
 
 ## Further reading
 
