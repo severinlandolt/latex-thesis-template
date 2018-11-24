@@ -14,20 +14,23 @@
 %%% >> HEAD
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \input{head/titlepage.tex}
-
-\pagenumbering{Roman}
+\pagenumbering{roman}
 
 \input{head/abstract.tex}
+\addcontentsline{toc}{section}{Abstract}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% >> TOC,FIGURES TABLES
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 	\newpage
 	\tableofcontents
+	\addcontentsline{toc}{section}{Table of Contents}
 	\newpage
 	\listoffigures
+	%\addcontentsline{toc}{section}{List of Figures}
 	\newpage
 	\listoftables
+	%\addcontentsline{toc}{section}{List of Tables}
 	\newpage
 	\setcounter{savepage}{\arabic{page}}
 	\pagenumbering{arabic}
