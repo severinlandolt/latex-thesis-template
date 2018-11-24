@@ -51,6 +51,18 @@ git clone <url_of_repository>
 
 Open *thesis.tex* in your favourite TeX editor.
 
+## Citation
+
+We are using the _natbib_ package to cite in the prose text and also to generate the bibliography. Here we will explain the workflow of citing. The template is set up to APA-Style referencing.
+
+*Prepare your bibliographic database*
+Copy/Paste the source you want to cite in a BibTeX formatting (see screenshot below) into your references.bib file. Bear in mind that LaTeX by default only puts those sources into the final references section which are actually cited in the document.
+![references01](link)
+
+*Ways of cite*
+There are plenty ways to cite. The following information is mostly derived from ![natbib's documentation](http://mirror.hmc.edu/ctan/macros/latex/contrib/natbib/natnotes.pdf). Basically there are two basic citation commands, \citet and \citep for textual and parenthetical citations. There exist also starred versions \citet* and \citep* that print the full author list, and not just the abbreviated one.
+![finalref](link)
+
 ## Further reading
 
 [A great LaTeX Cheatsheet](https://wch.github.io/latexsheet/)\
