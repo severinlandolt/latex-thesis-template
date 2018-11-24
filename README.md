@@ -32,7 +32,7 @@ TeXniCe: http://www.texniccenter.org
 TeXStudio: https://www.texstudio.org
 
 With the right plugins, you can also use [Atom](https://atom.io).
-![Atom](https://github.com/severinlandolt/hsg-latex-template/blob/master/atom01.png?raw=true)
+![Atom](hsg-latex-template/images/atom01.png)
 
 For example, using combination of the two packages:
 
@@ -49,7 +49,7 @@ For example, using combination of the two packages:
 git clone <url_of_repository>
 ```
 
-Open *thesis.tex* in your favourite TeX editor.
+Open the folder in your favourite TeX editor. If you have any problems with "rendering" your PDF, just delete the .aux file.
 
 ## Citation
 
