@@ -57,9 +57,9 @@ We are using the _natbib_ package to cite in the prose text and also to generate
 
 **Prepare your bibliographic database**\
 Copy/Paste the source you want to cite in a BibTeX formatting (see screenshot below) into your references.bib file. Bear in mind that LaTeX by default only puts those sources into the final references section which are actually cited in the document.
-![references01](https://raw.githubusercontent.com/severinlandolt/hsg-latex-template/master/images/references01.png)
+![references01](https://raw.githubusercontent.com/severinlandolt/hsg-latex-template/master/images/references01.png){:height="50%" width="50%"}
 
-<img src="https://raw.githubusercontent.com/severinlandolt/hsg-latex-template/master/images/references01.png" alt="drawing" style="width:35px;"/>
+
 
 **Ways to cite**\
 There are plenty ways to cite. The following information is mostly derived from ![natbib's documentation](https://ctan.org/pkg/natbib?lang=de). Basically there are two basic citation commands, \citet and \citep for textual and parenthetical citations. There exist also starred versions \citet* and \citep* that print the full author list, and not just the abbreviated one.
