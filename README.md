@@ -20,7 +20,6 @@ https://miktex.org
 There are many capable text editors where you can code LaTeX.
 
 **macOS**\
-
 TextMate: https://macromates.com
 
 TeXStudio: https://www.texstudio.org
