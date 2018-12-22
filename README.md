@@ -7,7 +7,7 @@ A LaTeX template for humans at HSG.
 These instructions will get you a copy of the project up and running on your local machine to start writing your thesis.
 
 ### Prerequisites
-The first part of a working LaTeX environment is a TeX distribution. This depends on your operating system. And yes, the file is big. 
+The first part of a working LaTeX environment is a TeX distribution. This depends on your operating system. And yes, the file is big.  
 
 **macOS:**
 http://www.tug.org/mactex/
