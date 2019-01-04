@@ -62,7 +62,7 @@ Copy/Paste the source you want to cite in a BibTeX formatting (see screenshot be
 **Ways to cite**\
 There are plenty ways to cite. The following information is mostly derived from [natbib's documentation](https://ctan.org/pkg/natbib?lang=de). Basically there are two basic citation commands, \citet and \citep for textual and parenthetical citations. There exist also starred versions \citet* and \citep* that print the full author list, and not just the abbreviated one.<br>
 
-![finalref](https://raw.githubusercontent.com/severinlandolt/hsg-latex-template/master/images/finalref2.png)
+![finalref](https://raw.githubusercontent.com/severinlandolt/hsg-latex-template/master/images/finalref3.png)
 
 ## Further reading
 
