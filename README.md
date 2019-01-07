@@ -32,12 +32,12 @@ TeXStudio: https://www.texstudio.org
 With the right plugins, you can also use [Atom](https://atom.io).
 ![Atom](https://raw.githubusercontent.com/severinlandolt/hsg-latex-template/master/images/atom01.png) (this is the editor we mostly use)
 
-For example, using combination of the two packages:
+For example, I use a combination of two packages:
 
-- [language-latex](https://atom.io/packages/language-latex)
-- [latextools](https://atom.io/packages/latextools)
+- [atom-latex](https://atom.io/packages/atom-latex)
+- [latex](https://atom.io/packages/latex)
 
-![Atom](https://raw.githubusercontent.com/severinlandolt/hsg-latex-template/master/images/atom02-packages.png)
+![Atom](https://raw.githubusercontent.com/severinlandolt/hsg-latex-template/master/images/atom-packages.png)
 
 ### Get template
 
@@ -47,7 +47,9 @@ For example, using combination of the two packages:
 git clone <url_of_repository>
 ```
 
-Open the folder in your favourite TeX editor. If you have any problems with "rendering" your PDF, just delete the .aux file.
+In Atom, you first have to set a "root" file. A LaTeX root file is essential for Atom-LaTeX. Building, preview, autocompletion, and more features rely on its proper configuration. You can manually select the root file by clicking the `home` icon at the bottom of the editor. Select the *your_thesis.tex* file. This is the correct root file with the sequence `\begin{document}` in it. 
+
+If you have any problems with "rendering" your PDF, just delete the .aux file.
 
 ## Citation
 
@@ -56,8 +58,6 @@ We are using the _natbib_ package to cite in the prose text and also to generate
 **Prepare your bibliographic database**\
 Copy/Paste the source you want to cite in a BibTeX formatting (see screenshot below) into your references.bib file. Bear in mind that LaTeX by default only puts those sources into the final references section which are actually cited in the document.
 ![references01](https://raw.githubusercontent.com/severinlandolt/hsg-latex-template/master/images/references01.png)
-
-
 
 **Ways to cite**\
 There are plenty ways to cite. The following information is mostly derived from [natbib's documentation](https://ctan.org/pkg/natbib?lang=de). Basically there are two basic citation commands, \citet and \citep for textual and parenthetical citations. There exist also starred versions \citet* and \citep* that print the full author list, and not just the abbreviated one.<br>
