@@ -47,7 +47,7 @@ For example, I use a combination of two packages:
 git clone <url_of_repository>
 ```
 
-In Atom, you first have to set a "root" file. A LaTeX root file is essential for Atom-LaTeX. Building, preview, autocompletion, and more features rely on its proper configuration. You can manually select the root file by clicking the `home` icon at the bottom of the editor. Select the *your_thesis.tex* file. This is the correct root file with the sequence `\begin{document}` in it. 
+In Atom, you first have to set a "root" file. A LaTeX root file is essential for Atom-LaTeX. Building, preview, autocompletion, and more features rely on its proper configuration. You can manually select the root file by clicking the `home` icon at the bottom of the editor. Select the *your_thesis.tex* file. This is the correct root file with the sequence `\begin{document}` in it.
 
 If you have any problems with "rendering" your PDF, just delete the .aux file.
 
@@ -63,6 +63,12 @@ Copy/Paste the source you want to cite in a BibTeX formatting (see screenshot be
 There are plenty ways to cite. The following information is mostly derived from [natbib's documentation](https://ctan.org/pkg/natbib?lang=de). Basically there are two basic citation commands, \citet and \citep for textual and parenthetical citations. There exist also starred versions \citet* and \citep* that print the full author list, and not just the abbreviated one.<br>
 
 ![finalref](https://raw.githubusercontent.com/severinlandolt/hsg-latex-template/master/images/finalref3.png)
+
+## Miscellaneous
+
+If you want to use an other paragraph styling, you can do this within the _settings.tex_ file. You can tune both the indentation (\parindent, default 0px) and the space between the paragraphs (\parskip, default 1em)
+
+![paragraph](https://raw.githubusercontent.com/severinlandolt/hsg-latex-template/master/images/paragraph.png)
 
 ## Further reading
 
