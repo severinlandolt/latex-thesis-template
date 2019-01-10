@@ -27,7 +27,8 @@
 \usepackage{xcolor}
 \onehalfspacing
 \newcounter{savepage}
-\setlength{\parindent}{0pt}
+\setlength{\parindent}{0pt} %the indentation when you start a new paragraph
+\setlength{\parindent}{0pt} %the indentation when you start a new paragraph
 \setlength{\parskip}{1em}
 \usepackage{amsmath}
 
@@ -35,11 +36,11 @@
 \usepackage{color}
 \usepackage{tikz}
 \usepackage{float}
-\usepackage{tocloft}
 \usepackage{tabularx}
 \usepackage{multicol}
 \usepackage{dcolumn}
 \usepackage[export]{adjustbox}
+\usepackage{tocloft} %advanced TOC, LOF and LOT options
 \newcommand\tab[1][1cm]{\hspace*{#1}}
 \renewcommand{\cftfigpresnum}{Fig. }
 \renewcommand{\cfttabpresnum}{Tab. }
@@ -47,31 +48,15 @@
 \setlength{\footnotesep}{0cm}
 \renewcommand{\cftfigaftersnum}{:}
 \renewcommand{\cfttabaftersnum}{:}
-
 \setlength{\cftfignumwidth}{2cm}
 \setlength{\cfttabnumwidth}{2cm}
-
 \setlength{\cftfigindent}{0cm}
 \setlength{\cfttabindent}{0cm}
 \usetikzlibrary{decorations.pathreplacing}
 
-%\usepackage{fancyhdr}
-% \pagestyle{fancy}
-% with this we ensure that the chapter and section
-% headings are in lowercase.
-% \renewcommand{\chaptermark}[1]{%
-% \markboth{#1}{}}
-% \renewcommand{\sectionmark}[1]{%
-% \markright{\thesection\ #1}}
-% \fancyhf{}  % delete current header and footer
-% \fancyhead[LE,RO]{\thepage} %page number in the header
-% \fancyhead[LO]{\rightmark}
-% \fancyhead[RE]{\leftmark}
-% \fancyfoot[LE, RO] {\thepage} %page number in the footer
-% \renewcommand{\headrulewidth}{0.4pt}
-% \renewcommand{\footrulewidth}{0pt}
-% \addtolength{\headheight}{0.4pt} % space for the rule
-% \fancypagestyle{plain}{%
-%    \fancyhead{} % get rid of headers on plain pages
-%    \renewcommand{\headrulewidth}{0pt} % and the line
-% }
+% activate the section below if you want chapter names and page number on the top of the page.
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\thepage}
+\lhead{\nouppercase\leftmark}
