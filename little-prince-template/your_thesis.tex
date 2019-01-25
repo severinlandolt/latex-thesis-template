@@ -20,7 +20,7 @@
 \addcontentsline{toc}{section}{Abstract}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%% >> TOC,FIGURES TABLES
+%%% >> TOC,FIGURES, TABLES & ABBREVITATIONS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 	\newpage
 	\tableofcontents\thispagestyle{fancy}
@@ -33,6 +33,10 @@
 	\newpage
 	\listoftables\thispagestyle{fancy}
 	\addcontentsline{toc}{section}{List of Tables}
+
+	\newpage
+	\printglossary[title = List of Abbreviations]\thispagestyle{fancy}
+	\addcontentsline{toc}{section}{List of Abbreviations}
 
 	\newpage
 	\setcounter{savepage}{\arabic{page}}
