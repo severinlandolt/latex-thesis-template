@@ -61,7 +61,9 @@
 \rhead{\thepage}
 \lhead{\nouppercase\leftmark}
 
-\usepackage[automake,nopostdot,nonumberlist]{glossaries}
+\usepackage[automake,style=super,nopostdot,nonumberlist]{glossaries}
+%if you want to display the page number, delete nonumberlist
 \makeglossaries
 \input{01_head/abbreviations.tex}
-%if you do not want to display the page number, delete nonumberlist
+\renewcommand{\glsnamefont}[1]{\textbf{#1}}
+%\renewcommand*{\glsgroupskip}{} %activate for smaller linespacing
