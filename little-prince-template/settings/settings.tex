@@ -8,7 +8,7 @@
 
 \usepackage{natbib}
 \usepackage{lipsum}
-\usepackage[english]{babel}
+\usepackage[english, german]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage[a4paper,lmargin={2.5cm},rmargin={2.5cm},tmargin={2.5cm},bmargin = {2.5cm}]{geometry}
 \usepackage{amssymb}
@@ -18,6 +18,8 @@
 \urlstyle{same}
 \usepackage{amsthm}
 \usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{booktabs}
 \usepackage{setspace}
 \usepackage{caption}
 \usepackage{subcaption}
@@ -28,8 +30,7 @@
 \onehalfspacing
 \newcounter{savepage}
 \setlength{\parindent}{0pt} %the indentation when you start a new paragraph
-\setlength{\parindent}{0pt} %the indentation when you start a new paragraph
-\setlength{\parskip}{1em}
+\setlength{\parskip}{1em} %the space between each paragraph
 \usepackage{amsmath}
 
 \numberwithin{equation}{subsection}
@@ -44,14 +45,16 @@
 \newcommand\tab[1][1cm]{\hspace*{#1}}
 \renewcommand{\cftfigpresnum}{Fig. }
 \renewcommand{\cfttabpresnum}{Tab. }
-\renewcommand{\footnotesize}{\small}
-\setlength{\footnotesep}{0cm}
 \renewcommand{\cftfigaftersnum}{:}
 \renewcommand{\cfttabaftersnum}{:}
 \setlength{\cftfignumwidth}{2cm}
 \setlength{\cfttabnumwidth}{2cm}
 \setlength{\cftfigindent}{0cm}
 \setlength{\cfttabindent}{0cm}
+
+\renewcommand{\footnotesize}{\small}
+\setlength{\footnotesep}{0cm}
+
 \usetikzlibrary{decorations.pathreplacing}
 
 % activate the section below if you want chapter names and page number on the top of the page.
@@ -66,4 +69,4 @@
 \makeglossaries
 \input{01_head/abbreviations.tex}
 \renewcommand{\glsnamefont}[1]{\textbf{#1}}
-%\renewcommand*{\glsgroupskip}{} %activate for smaller linespacing
+\renewcommand*{\glsgroupskip}{} %activate for smaller linespacing

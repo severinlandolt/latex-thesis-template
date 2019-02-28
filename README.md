@@ -70,6 +70,9 @@ If you want to use an other paragraph styling, you can do this within the _setti
 
 ![paragraph](https://raw.githubusercontent.com/severinlandolt/hsg-latex-template/master/images/paragraph.png)
 
+To create entries for a glossary or a list of abbreviations use the `\newglossaryentry{label}{name={key}, description={value}}` command in the little-_/01_head/abbreviations.tex_ file. In text use: `\gls{label}`.
+
+
 ## Further reading
 
 [A great LaTeX Cheatsheet](https://wch.github.io/latexsheet/)\
