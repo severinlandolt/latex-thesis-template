@@ -22,12 +22,10 @@ There are many capable text editors where you can code LaTeX.
 **macOS**\
 TextMate: https://macromates.com
 
-TeXStudio: https://www.texstudio.org
+texpad: https://www.texpad.com/osx (worth every penny!)
 
 **windows**\
 TeXniCe: http://www.texniccenter.org
-
-TeXStudio: https://www.texstudio.org
 
 With the right plugins, you can also use [Atom](https://atom.io).
 ![Atom](https://raw.githubusercontent.com/severinlandolt/hsg-latex-template/master/images/atom01.png) (this is the editor we mostly use)

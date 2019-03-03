@@ -6,34 +6,36 @@
 %%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\usepackage{natbib}
+%\usepackage{natbib}
+\usepackage[style=apa, natbib=true]{biblatex}
+\bibliography{00_bibliography/references.bib}
 \usepackage{lipsum}
-\usepackage[english, german]{babel}
+\usepackage[english]{babel}
 \usepackage[utf8]{inputenc}
-\usepackage[a4paper,lmargin={2.5cm},rmargin={2.5cm},tmargin={2.5cm},bmargin = {2.5cm}]{geometry}
+\usepackage[a4paper,lmargin={2.5cm},rmargin={2.5cm},tmargin={2.5cm},bmargin =
+{2.5cm}]{geometry}
 \usepackage{amssymb}
-\usepackage[hyphens]{url}
-\usepackage[hidelinks]{hyperref}
-\renewcommand{\UrlBreaks}{\do\a\do\b\do\c\do\d\do\e\do\f\do\g\do\h\do\i\do\j\do\k\do\l\do\m\do\m\do\n\do\o\do\p\do\q\do\r\do\s\do\t\do\u\do\v\do\w\do\x\do\y\do\z\do\1\do\2\do\3\do\4\do\5\do\6\do\7\do\8\do\9\do\.\do\_\do\?\do\!\do\-\do\&}
-\urlstyle{same}
+\usepackage[bottom, hang]{footmisc} %makes footnotes stick to the bottom page
+\setlength{\footnotemargin}{1em}
+\setlength{\footnotesep}{0.4cm}
+%\renewcommand{\footnotesize}{\small} %change \small set the desired size of your footnotes
+\usepackage{csquotes}
 \usepackage{amsthm}
 \usepackage{graphicx}
 \usepackage{enumitem}
 \usepackage{booktabs}
-\usepackage{setspace}
 \usepackage{caption}
 \usepackage{subcaption}
 \usepackage{array,multirow}
-\usepackage{pgfplots}
+%\usepackage{pgfplots}
 \usepackage{textcomp}
 \usepackage{xcolor}
-\onehalfspacing
 \newcounter{savepage}
 \setlength{\parindent}{0pt} %the indentation when you start a new paragraph
-\setlength{\parskip}{1em} %the space between each paragraph
+\setlength{\parskip}{1.3em} %the space between each paragraph
 \usepackage{amsmath}
-
 \numberwithin{equation}{subsection}
+\usepackage{mathtools}
 \usepackage{color}
 \usepackage{tikz}
 \usepackage{float}
@@ -51,18 +53,26 @@
 \setlength{\cfttabnumwidth}{2cm}
 \setlength{\cftfigindent}{0cm}
 \setlength{\cfttabindent}{0cm}
-
-\renewcommand{\footnotesize}{\small}
-\setlength{\footnotesep}{0cm}
-
 \usetikzlibrary{decorations.pathreplacing}
-
-% activate the section below if you want chapter names and page number on the top of the page.
+\usepackage[super]{nth}
 \usepackage{fancyhdr}
+\setlength{\headheight}{14.5pt}
 \pagestyle{fancy}
 \fancyhf{}
 \rhead{\thepage}
 \lhead{\nouppercase\leftmark}
+
+
+
+%\usepackage[hyphens]{url}
+\urlstyle{same}
+\usepackage{setspace}
+\onehalfspacing
+\usepackage[hidelinks]{hyperref}
+\renewcommand{\UrlBreaks}
+{\do\a\do\b\do\c\do\d\do\e\do\f\do\g\do\h\do\i\do\j\do\k\do\l\do\m\do\m\do\n\do\o\do\p\do\q\do\r\do\s\do\t\do\u\do\v\do\w\do\x\do\y\do\z\do\1\do\2\do\3\do\4\do\5\do\6\do\7\do\8\do\9\do\.\do\_\do\?\do\!\do\-\do\&}
+
+
 
 \usepackage[automake,style=super,nopostdot,nonumberlist]{glossaries}
 %if you want to display the page number, delete nonumberlist

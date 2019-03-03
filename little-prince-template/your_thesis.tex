@@ -17,25 +17,32 @@
 \pagenumbering{roman}
 
 \input{01_head/abstract.tex}
+\phantomsection
 \addcontentsline{toc}{section}{Abstract}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%% >> TOC,FIGURES, TABLES & ABBREVITATIONS
+%%% >> TOC,FIGURES & TABLES
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 	\newpage
+
+	\renewcommand{\contentsname}{Table of Contents}
 	\tableofcontents\thispagestyle{fancy}
+	\phantomsection
 	\addcontentsline{toc}{section}{Table of Contents}
 
 	\newpage
 	\listoffigures\thispagestyle{fancy}
+	\phantomsection
 	\addcontentsline{toc}{section}{List of Figures}
 
 	\newpage
 	\listoftables\thispagestyle{fancy}
+	\phantomsection
 	\addcontentsline{toc}{section}{List of Tables}
 
 	\newpage
 	\printglossary[title = List of Abbreviations]\thispagestyle{fancy}
+	\phantomsection
 	\addcontentsline{toc}{section}{List of Abbreviations}
 
 	\newpage
