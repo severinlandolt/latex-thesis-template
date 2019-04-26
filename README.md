@@ -6,6 +6,14 @@ A LaTeX template for humans at HSG.
 
 These instructions will get you a copy of the project up and running on your local machine to start writing your thesis.
 
+There are two ways of getting started: 
+1. Online Latex editor: Overleaf
+For this download either little-prince-templace or chinchilab-template, create zip file and import it to Overleaf. 
+
+2. On your local machine. 
+Please, follow a guide below: 
+
+
 ### Prerequisites
 The first part of a working LaTeX environment is a TeX distribution. This depends on your operating system. And yes, the file is big.  
 
