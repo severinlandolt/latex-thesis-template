@@ -18,25 +18,27 @@
 \usepackage[bottom, hang]{footmisc} %makes footnotes stick to the bottom page
 \setlength{\footnotemargin}{1em}
 \setlength{\footnotesep}{0.4cm}
+\interfootnotelinepenalty=10000 %makes latex less likely to pagebreak a footnote
+\usepackage{tablefootnote}
 %\renewcommand{\footnotesize}{\small} %change \small set the desired size of your footnotes
+\usepackage[dvipsnames, table]{xcolor}
 \usepackage{csquotes}
 \usepackage{amsthm}
 \usepackage{graphicx}
 \usepackage{enumitem}
 \usepackage{booktabs}
+\usepackage{soul}
 \usepackage{caption}
 \usepackage{subcaption}
 \usepackage{array,multirow}
-%\usepackage{pgfplots}
+\usepackage{pgfplots}
 \usepackage{textcomp}
-\usepackage{xcolor}
 \newcounter{savepage}
 \setlength{\parindent}{0pt} %the indentation when you start a new paragraph
 \setlength{\parskip}{1.3em} %the space between each paragraph
 \usepackage{amsmath}
 \numberwithin{equation}{subsection}
 \usepackage{mathtools}
-\usepackage{color}
 \usepackage{tikz}
 \usepackage{float}
 \usepackage{tabularx}
@@ -61,8 +63,14 @@
 \fancyhf{}
 \rhead{\thepage}
 \lhead{\nouppercase\leftmark}
-
-
+\usepackage{pdfpages} %insert pdf pages
+\usepackage{pdflscape}
+\usepackage{longtable} %edit longtable format and row color
+\definecolor{lightgray}{gray}{0.9}
+\let\oldlongtable\longtable
+\let\endoldlongtable\endlongtable
+\renewenvironment{longtable}{\rowcolors{2}{white}{lightgray}\oldlongtable} {
+\endoldlongtable}
 
 %\usepackage[hyphens]{url}
 \urlstyle{same}
@@ -80,3 +88,4 @@
 \input{01_head/abbreviations.tex}
 \renewcommand{\glsnamefont}[1]{\textbf{#1}}
 \renewcommand*{\glsgroupskip}{} %activate for smaller linespacing
+

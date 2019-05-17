@@ -16,15 +16,44 @@
 \setcounter{table}{0}
 \setcounter{figure}{0}
 
-
-
+\begin{landscape}
 
 \section{Appendix}
-\subsection{Planet 01}
-\subsubsection{Vulcano}
-\subsubsection{Sheep}
+\subsection{Sample Longtable Format}
+\label{app:sample}
+
+\renewcommand{\arraystretch}{1.2}\begin{longtable}{
+>{\centering\arraybackslash}m{1cm} %id
+>{\centering\arraybackslash}m{2.5cm} %Source
+>{\centering\arraybackslash}m{4cm} %Autors
+>{\centering\arraybackslash}m{1.8cm} %year
+>{\centering\arraybackslash}m{13cm} % Title
+}
+
+ %header \rowcolor[rgb]{ .149,  .149,  .149}
+ \textcolor[rgb]{ 1,  1,  1}{\textbf{ID}} & 
+ \textcolor[rgb]{ 1,  1,  1}{\textbf{Source}} & 
+ \textcolor[rgb]{ 1,  1,  1}{\textbf{Authors}} & 
+ \textcolor[rgb]{ 1,  1,  1}{\textbf{Year}} &
+ \textcolor[rgb]{ 1,  1,  1}{\textbf{Title}} \\
+%content
 
 
+001   & arXiv.org & Bornas and Mateos & 2019  & A Character-Level Approach to the Text Normalization Problem Based on a New Causal Encoder \\
+002   & arXiv.org & Kalyan and Sangeetha & 2019  & SECNLP: A Survey of Embeddings in Clinical Natural Language Processing \\
+003   & arXiv.org & Zhang et al. & 2019  & Multiresolution Graph Attention Networks for Relevance Matching \\
+004   & arXiv.org & Monti et al. & 2019  & Fake News Detection on Social Media using Geometric Deep Learning \\
+005   & arXiv.org & Si et al. & 2019  & Enhancing Clinical Concept Extraction with Contextual Embedding \\
+006   & arXiv.org & Vo et al. & 2019  & Combination of Domain Knowledge and Deep Learning for Sentiment Analysis of Short and Informal Messages on Social Media \\
+007   & arXiv.org & Vidya et al. & 2019  & A Deep Learning Approach for Similar Languages, Varieties and Dialects \\
+008   & arXiv.org & Eger et al. & 2019  & Is it Time to Swish? Comparing Deep Learning Activation Functions Across NLP tasks \\
+009   & arXiv.org & Wolk et al. & 2019  & Deep learning and sub-word-unit approach in written art generation. \\
+
+ 	    \bottomrule
+\rowcolor{white} 	    
+  \caption[Table of Sample (cross-references)]{\textit{Complete table of samples obtained from cross-references. (own table)}} \end{longtable}  \label{app:crossrefsample}
+  
+\end{landscape}
 
 
 
