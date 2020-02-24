@@ -1,4 +1,4 @@
-# A HSG LaTeX Template
+# A LaTeX Template
 
 A LaTeX template for humans writing their thesis.
 
