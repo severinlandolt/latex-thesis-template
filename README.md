@@ -79,7 +79,6 @@ To create entries for a glossary or a list of abbreviations use the `\newglossar
 ## Authors
 
 * [Severin Landolt](https://github.com/severinlandolt)
-* [Tetyana Drobot](https://github.com/deltani)
 
 ## License
 
