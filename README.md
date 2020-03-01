@@ -62,6 +62,10 @@ There are plenty ways to cite. The following information is mostly derived from 
 
 ![finalref](https://raw.githubusercontent.com/severinlandolt/latex-thesis-template/master/images/finalref3.png)
 
+**Bibliography Management**\
+I personally recommend using [Zotero](https://www.zotero.org/) for bibliography management. It is a is a free, easy-to-use tool to help you
+collect, organise, cite, and share research. Zotero is available for Mac, Windows, and Linux.
+
 ## Miscellaneous
 
 If you want to use an other paragraph styling, you can do this within the _settings.tex_ file. You can tune both the indentation (\parindent, default 0px) and the space between the paragraphs (\parskip, default 1em)
@@ -71,10 +75,13 @@ If you want to use an other paragraph styling, you can do this within the _setti
 To create entries for a glossary or a list of abbreviations use the `\newglossaryentry{label}{name={key}, description={value}}` command in the little-_/01_head/abbreviations.tex_ file. In text use: `\gls{label}`.
 
 
-## Further reading
+## Further information
 
 [A great LaTeX Cheatsheet](https://wch.github.io/latexsheet/)\
 [Tobi Oetiker's *The not so Short Introduction to LaTeX2e*](https://tobi.oetiker.ch/lshort/lshort.pdf)
+
+[A great LaTeX YouTube tutorial series](https://www.youtube.com/watch?v=FXujG7c9p8g&list=PLNnwglGGYoTtW7o4PHFOSWGevcdFa3v3D)\
+[Latex Report Writing Tutorials by Alexander Baran-Harper](https://www.youtube.com/watch?v=FXujG7c9p8g&list=PLNnwglGGYoTtW7o4PHFOSWGevcdFa3v3D)
 
 ## Authors
 
