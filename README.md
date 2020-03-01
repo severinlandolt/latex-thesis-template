@@ -77,9 +77,9 @@ To create entries for a glossary or a list of abbreviations use the `\newglossar
 
 ## Further information
 
-[A great LaTeX Cheatsheet](https://wch.github.io/latexsheet/)\
+[A great LaTeX Cheatsheet](https://wch.github.io/latexsheet/)
 
-[Tobi Oetiker's *The not so Short Introduction to LaTeX2e*](https://tobi.oetiker.ch/lshort/lshort.pdf)\
+[Tobi Oetiker's *The not so Short Introduction to LaTeX2e*](https://tobi.oetiker.ch/lshort/lshort.pdf)
 
 [Latex Report Writing Tutorials by Alexander Baran-Harper](https://www.youtube.com/watch?v=FXujG7c9p8g&list=PLNnwglGGYoTtW7o4PHFOSWGevcdFa3v3D)
 
