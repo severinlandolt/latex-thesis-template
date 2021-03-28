@@ -12,7 +12,7 @@ The first part of a working LaTeX environment is a TeX distribution. This depend
 **macOS:**
 http://www.tug.org/mactex/
 
-```console
+```bash
 brew install --cask mactex
 ```
 
