@@ -16,17 +16,14 @@ http://www.tug.org/mactex/
 brew install --cask mactex
 ```
 
-
 **windows:**
 https://miktex.org
 
 ### Installing an editor
 
-There are many capable text editors where you can code LaTeX.
+There are many capable editors designed for LaTeX.
 
 **macOS**\
-TextMate: https://macromates.com
-
 texpad: https://www.texpad.com/osx (worth every penny!)
 
 **windows**\
