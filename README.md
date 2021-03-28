@@ -7,10 +7,15 @@ A LaTeX template for humans writing their thesis.
 These instructions will get you a copy of the project up and running on your local machine to start writing your thesis.
 
 ### Prerequisites
-The first part of a working LaTeX environment is a TeX distribution. This depends on your operating system. And yes, the file is big.  
+The first part of a working LaTeX environment is a TeX distribution. This depends on your operating system.  
 
 **macOS:**
 http://www.tug.org/mactex/
+
+```zsh
+brew install --cask mactex
+```
+
 
 **windows:**
 https://miktex.org
