@@ -26,24 +26,18 @@ There are many capable editors designed for LaTeX.
 **macOS**\
 texpad: https://www.texpad.com/osx (worth every penny!)
 
+![texpad](https://raw.githubusercontent.com/severinlandolt/latex-thesis-template/master/images/Screenshot_texpad.png)
+
 **windows**\
 TeXniCe: http://www.texniccenter.org
 
-With the right plugins, you can also use [Atom](https://atom.io).
-![Atom](https://raw.githubusercontent.com/severinlandolt/latex-thesis-template/master/images/atom01.png) (this is the editor we mostly use)
-
-For example, I use a combination of two packages:
-
-- [atom-latex](https://atom.io/packages/atom-latex)
-- [latex](https://atom.io/packages/latex)
-
-![Atom](https://raw.githubusercontent.com/severinlandolt/latex-thesis-template/master/images/atom-packages.png)
+You can also use every other text editor you prefer (Atom, Notepad++, etc.). Be aware that you might lose enhanced syntax highlighting,  debugging options and pdf preview without additional plugins installed.
 
 ### Get template
 
 [Download](https://github.com/severinlandolt/latex-thesis-template/archive/master.zip) or Clone this Git Repository
 
-```
+```bash
 git clone <url_of_repository>
 ```
 
