@@ -1,14 +1,10 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%% DO NOT TOUCH EXCEPT YOU REALLY KNOW WHAT YOU ARE DOING! REALLY, JUST DON'T.
-%%%
-%%%       YOUR THESIS' SETTINGS
-%%%				>slandolt, 23-11-2018
-%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%-------------------------------------------
+%SETTINGS
+%DO NOT TOUCH EXCEPT YOU REALLY KNOW WHAT YOU ARE DOING!
+%-------------------------------------------
 
-%\usepackage{natbib}
 \usepackage[style=apa, natbib=true]{biblatex}
-\bibliography{00_bibliography/references.bib}
+\bibliography{04_bibliography.bib}
 \usepackage{lipsum}
 \usepackage[english]{babel}
 \usepackage[utf8]{inputenc}
@@ -80,12 +76,9 @@
 \renewcommand{\UrlBreaks}
 {\do\a\do\b\do\c\do\d\do\e\do\f\do\g\do\h\do\i\do\j\do\k\do\l\do\m\do\m\do\n\do\o\do\p\do\q\do\r\do\s\do\t\do\u\do\v\do\w\do\x\do\y\do\z\do\1\do\2\do\3\do\4\do\5\do\6\do\7\do\8\do\9\do\.\do\_\do\?\do\!\do\-\do\&}
 
-
-
 \usepackage[automake,style=super,nopostdot,nonumberlist]{glossaries}
 %if you want to display the page number, delete nonumberlist
 \makeglossaries
-\input{01_head/abbreviations.tex}
 \renewcommand{\glsnamefont}[1]{\textbf{#1}}
 \renewcommand*{\glsgroupskip}{} %activate for smaller linespacing
 

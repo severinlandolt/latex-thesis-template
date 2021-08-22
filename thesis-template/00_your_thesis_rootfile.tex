@@ -1,0 +1,89 @@
+%-------------------------------------------
+%YOUR THESIS
+%-------------------------------------------
+
+\documentclass[12pt,titlepage, dvipsnames]{article}
+
+\input{01_settings.tex}
+
+\begin{document}
+
+%-------------------------------------------
+%TITLEPAGE
+%-------------------------------------------
+
+\begin{titlepage}
+  \centering
+  \includegraphics[width=8cm]{images/yourlogo.png}\par\vspace{1cm}
+  \linespread{1}\Large{\scshape Your Institute\par}
+  \vspace{1.5cm}
+  {\scshape\Large\bfseries Bachelor Thesis\par}
+  {\huge\bfseries The Little Prince Template \par
+    \Large\bfseries *insert subtitle here*\par}
+  \vspace{1.5cm}
+  \linespread{0.75}\Large{Your Name\par Your Number\par Street\par ZIP Code}
+  \vfill
+  \linespread{0.75}\large{Submitted to:\par
+    Prof. Test}
+  \vfill
+  % Bottom of the page
+  {\large 23.02.2042\par}
+\end{titlepage}
+
+%-------------------------------------------
+%ABSTRACT
+%-------------------------------------------
+
+\pagenumbering{roman}\section*{Abstract}
+\lipsum[1] %write you abstract here
+
+\phantomsection %command is nessesary for hyperref to jump to the correct page
+\addcontentsline{toc}{section}{Abstract}
+
+%-------------------------------------------
+%TOC, FIGURES, TABELES, ABBREVIATIONS
+%-------------------------------------------
+
+\newpage
+\renewcommand{\contentsname}{Table of Contents}
+\tableofcontents\thispagestyle{fancy}
+\phantomsection
+\addcontentsline{toc}{section}{Table of Contents}
+
+\newpage
+\listoffigures\thispagestyle{fancy}
+\phantomsection
+\addcontentsline{toc}{section}{List of Figures}
+
+\newpage
+\listoftables\thispagestyle{fancy}
+\phantomsection
+\addcontentsline{toc}{section}{List of Tables}
+
+\newpage
+\input{02_abbreviations.tex}
+\printglossary[title = List of Abbreviations]\thispagestyle{fancy}
+\phantomsection
+\addcontentsline{toc}{section}{List of Abbreviations}
+
+\newpage
+\setcounter{savepage}{\arabic{page}}
+\pagenumbering{arabic}
+
+%-------------------------------------------
+%MAIN BODY
+%-------------------------------------------
+
+\input{main_textbody/01_introduction.tex}
+\input{main_textbody/02_chapter1.tex}
+\input{main_textbody/03_chapter2.tex}
+
+%-------------------------------------------
+%REFERENCES, APPENDIX, DECLARATION
+%-------------------------------------------
+
+\input{05_references.tex}
+\input{06_appendix.tex}
+\input{07_declaration.tex}
+
+\end{document}
