@@ -3,7 +3,7 @@
 A LaTeX template for humans writing their thesis.
 
 There are two ways of getting started: 
-1. Online Latex editor: Overleaf. For this download either little-prince-template or chinchilab-template, create zip file and import it to Overleaf. 
+1. Online Latex editor: [overleaf.com](https://www.overleaf.com) For this download the thesis template, create zip file and import it to overleaf. 
 
 2. On your local machine. Please, follow a guide below: 
 
@@ -15,14 +15,14 @@ These instructions will get you a copy of the project up and running on your loc
 The first part of a working LaTeX environment is a TeX distribution. This depends on your operating system.  
 
 **macOS:**
-http://www.tug.org/mactex/
+[http://www.tug.org/mactex/](http://www.tug.org/mactex/)
 
 ```bash
 brew install --cask mactex
 ```
 
 **windows:**
-https://miktex.org
+[https://miktex.org](https://miktex.org)
 
 ### Installing an editor
 
