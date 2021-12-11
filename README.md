@@ -43,7 +43,7 @@ You can also use every other text editor you prefer (Atom, Notepad++, etc.). Be 
 [Download](https://github.com/severinlandolt/latex-thesis-template/archive/master.zip) or Clone this Git Repository
 
 ```bash
-git clone <url_of_repository>
+git clone https://github.com/severinlandolt/latex-thesis-template.git
 ```
 
 In Atom, you first have to set a "root" file. A LaTeX root file is essential for Atom-LaTeX. Building, preview, autocompletion, and more features rely on its proper configuration. You can manually select the root file by clicking the `home` icon at the bottom of the editor. Select the *your_thesis.tex* file. This is the correct root file with the sequence `\begin{document}` in it.
