@@ -31,7 +31,7 @@ There are many capable editors designed for LaTeX.
 **macOS**\
 texpad: https://www.texpad.com/osx (worth every penny!)
 
-![texpad](https://raw.githubusercontent.com/severinlandolt/latex-thesis-template/master/images/Screenshot_texpad.png)
+![texpad](https://raw.githubusercontent.com/severinlandolt/latex-thesis-template/master/images/screenshot_texpad.png)
 
 **windows**\
 TeXniCe: http://www.texniccenter.org
@@ -53,6 +53,9 @@ If you have any problems with "rendering" your PDF, just delete the .aux file.
 ## Citation
 
 We are using the _natbib_ package to cite in the prose text and also to generate the bibliography. Here we will explain the workflow of citing. The template is set up to APA-Style referencing.
+
+A great way to cleanup or beauitfy you bibfile is [FlamingTempura's](https://github.com/FlamingTempura) bibtex-tidy 
+→ https://flamingtempura.github.io/bibtex-tidy/
 
 **Prepare your bibliographic database**\
 Copy/Paste the source you want to cite in a BibTeX formatting (see screenshot below) into your references.bib file. Bear in mind that LaTeX by default only puts those sources into the final references section which are actually cited in the document.
@@ -78,15 +81,14 @@ To create entries for a glossary or a list of abbreviations use the `\newglossar
 
 ## Further information
 
-[A great LaTeX Cheatsheet](https://wch.github.io/latexsheet/)
+* [A great LaTeX Cheatsheet](https://wch.github.io/latexsheet/)
 
-[Tobi Oetiker's *The not so Short Introduction to LaTeX2e*](https://tobi.oetiker.ch/lshort/lshort.pdf)
+* [Tobi Oetiker's *The not so Short Introduction to LaTeX2e*](https://tobi.oetiker.ch/lshort/lshort.pdf)
 
-[Latex Report Writing Tutorials by Alexander Baran-Harper](https://www.youtube.com/watch?v=FXujG7c9p8g&list=PLNnwglGGYoTtW7o4PHFOSWGevcdFa3v3D)
+* [Latex Report Writing Tutorials by Alexander Baran-Harper](https://www.youtube.com/watch?v=FXujG7c9p8g&list=PLNnwglGGYoTtW7o4PHFOSWGevcdFa3v3D)
 
-## Authors
+* [‘Deadly sins’— The most severe mistakes in using LaTeX2e](https://ctan.math.utah.edu/ctan/tex-archive/info/l2tabu/english/l2tabuen.pdf)
 
-* [Severin Landolt](https://github.com/severinlandolt)
 
 ## License
 
