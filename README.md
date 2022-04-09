@@ -31,7 +31,7 @@ There are many capable editors designed for LaTeX.
 **macOS**\
 texpad: https://www.texpad.com/osx (worth every penny!)
 
-![texpad](https://raw.githubusercontent.com/severinlandolt/latex-thesis-template/master/images/screenshot_texpad.png)
+![texpad](https://raw.githubusercontent.com/severinlandolt/latex-thesis-template/master/images/Screenshot_texpad.png)
 
 **windows**\
 TeXniCe: http://www.texniccenter.org
